@@ -5,7 +5,7 @@ config :shorty, Shorty.Repo,
   username: "postgres",
   password: "",
   hostname: "localhost",
-  pool: 20,
+  pool_size: 20,
   migration_source: "shorty_schema_migrations"
 
 config :shorty, ecto_repos: [Shorty.Repo]

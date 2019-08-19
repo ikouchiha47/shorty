@@ -5,7 +5,7 @@ config :shorty, Shorty.Repo,
   username: "postgres",
   password: "",
   hostname: "localhost",
-  pool: 20
+  pool_size: 20
 
 config :shorty, ecto_repos: [Shorty.Repo]
 config :shorty, app_port: 8080
